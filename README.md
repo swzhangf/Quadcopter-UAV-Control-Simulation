@@ -20,7 +20,7 @@ The system is built in **Simulink** (`demo.slx`). Below are the details of the i
 
 ### 1. Top-Level Simulation Model
 This is the main simulation loop. It connects the Control Algorithm, the Quadcopter Plant (Dynamics), and the Reference Trajectory generation.
-![Top Level Model](.\f6.jpg)
+![Top Level Model](f6.jpg)
 
 ### 2. Control Algorithm
 The controller takes the reference position ($x_d, y_d, z_d$) and current state, processes them through PID loops, and outputs the required motor mixing signals ($U_1, U_2, U_3, U_4$).
